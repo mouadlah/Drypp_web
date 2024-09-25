@@ -1,0 +1,57 @@
+/* src/css_files/Footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between the sections */
+    align-items: center; /* Vertically centers the text and icons */
+    padding: 40px 80px; /* Adjust padding to match the page's design */
+    background-color: #87B6DC; /* Match the page background color */
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center; /* Center-aligns the text in all sections */
+  }
+  
+  .footer-section:first-child {
+    text-align: left; /* Aligns the first section (Contact Us) to the left */
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-section p, .footer-section a {
+    margin: 8px 0;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
