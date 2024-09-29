@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Drypp_web/static/css/main.95fc8b42.css",
+    "main.js": "/Drypp_web/static/js/main.1f6986a2.js",
+    "static/js/453.28a1b346.chunk.js": "/Drypp_web/static/js/453.28a1b346.chunk.js",
+    "static/media/img3.jpg": "/Drypp_web/static/media/img3.a2d0ec288a5f42cc1b5a.jpg",
+    "static/media/img1.jpeg": "/Drypp_web/static/media/img1.22476b27a67ee0188ffa.jpeg",
+    "static/media/img2.jpeg": "/Drypp_web/static/media/img2.bb576d71c9562c74785a.jpeg",
+    "index.html": "/Drypp_web/index.html",
+    "main.95fc8b42.css.map": "/Drypp_web/static/css/main.95fc8b42.css.map",
+    "main.1f6986a2.js.map": "/Drypp_web/static/js/main.1f6986a2.js.map",
+    "453.28a1b346.chunk.js.map": "/Drypp_web/static/js/453.28a1b346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95fc8b42.css",
+    "static/js/main.1f6986a2.js"
+  ]
+}
