@@ -6,9 +6,9 @@ function LandingPage() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>BOTTLE<br />WHICH<br /><span className="highlight">NEEDED</span><br />EVERYDAY.</h1>
+        <h1>THE<br />BOTTLE<br /><span className="highlight">YOU NEED</span><br />EVERYDAY.</h1>
         <p>
-          Drypp water bottle is not just a water bottle, it's BPA-free & drinking more water every day can make a huge impact on your health.
+        Drypp isn't just a water bottle—it's a smart hydration companion that helps you stay on top of your health with personalized insights and effortless reminders, empowering you to make lasting improvements to your wellness every day.        
         </p>
         <button className="cta-button">BUY NOW</button>
       </div>

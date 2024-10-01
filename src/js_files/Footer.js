@@ -11,20 +11,20 @@ function Footer() {
       <div className="footer-section">
         <h4>Contact Us</h4>
         <p><FontAwesomeIcon icon={faPhone} /> +1-555-555-5555</p>
-        <p><FontAwesomeIcon icon={faEnvelope} /> info@drypp.com</p>
-        <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 123 Drypp Street, Ottawa, Canada</p>
+        <p><FontAwesomeIcon icon={faEnvelope} /> drypp707@gmail.com</p>
+        <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Tampa, FL</p>
       </div>
 
       <div className="footer-section">
         <h4>Follow Us</h4>
         <div className="social-icons">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/the_drypp/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/DRYPP_" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>

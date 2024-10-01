@@ -1,27 +1,31 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #87B6DC;
-    color: black;
-  }
-  
-  .header .logo {
-    font-family: 'Cursive', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  .nav a {
-    margin: 0 20px;
-    color: black;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .nav a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #7bb7e0;
+  color: black;
+}
+
+.header .logo {
+  display: block;
+  background-image: url('../img/logo_lblue.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 60px;
+  margin-top: 13px;
+  text-decoration: none;
+}
+
+.nav a {
+  margin: 0 20px;
+  color: rgba(0, 0, 0, 0.502);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

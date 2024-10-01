@@ -1,0 +1,109 @@
+.about-container {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .intro, .vision {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-photo {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .description {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+    color: #0077b5; /* LinkedIn blue */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #005582;
+  }
+  
+  .social-icons .fas.fa-envelope {
+    color: #ff5f5f; /* Email icon red */
+  }
+  
+  .social-icons .fas.fa-envelope:hover {
+    color: #d94040;
+  }
+  
+  a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .team-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      width: 90%;
+    }
+  }
+  
