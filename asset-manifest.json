@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drypp_web/static/css/main.b69ee8e8.css",
-    "main.js": "/Drypp_web/static/js/main.2e6068db.js",
+    "main.js": "/Drypp_web/static/js/main.4b01c868.js",
     "static/js/453.28a1b346.chunk.js": "/Drypp_web/static/js/453.28a1b346.chunk.js",
     "static/media/fa-solid-900.ttf": "/Drypp_web/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/Rima.jpg": "/Drypp_web/static/media/Rima.84be6c34a809715ff381.jpg",
@@ -19,11 +19,11 @@
     "static/media/fa-v4compatibility.woff2": "/Drypp_web/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Drypp_web/index.html",
     "main.b69ee8e8.css.map": "/Drypp_web/static/css/main.b69ee8e8.css.map",
-    "main.2e6068db.js.map": "/Drypp_web/static/js/main.2e6068db.js.map",
+    "main.4b01c868.js.map": "/Drypp_web/static/js/main.4b01c868.js.map",
     "453.28a1b346.chunk.js.map": "/Drypp_web/static/js/453.28a1b346.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b69ee8e8.css",
-    "static/js/main.2e6068db.js"
+    "static/js/main.4b01c868.js"
   ]
 }
