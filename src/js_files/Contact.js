@@ -3,6 +3,7 @@ import '../css_files/Contact.css'; // Link to custom styles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
       <div className="contact-details">
         <h2 id='title2'>Our Info</h2>
         <p className='deets'><FontAwesomeIcon icon={faEnvelope} /> drypp707@gmail.com</p>
-        <p className='deets'>Find our Personal Info <a href='/about'>here</a> !</p>
+        <p className='deets'>Find our Personal Info <Link to="/about">here</Link> !</p>
 
         {/* Social Media Links */}
         <h3>Follow Us</h3>
@@ -31,7 +32,7 @@ function Contact() {
         <div className="members-incentive">
         <h2>Join Our Members List</h2>
         <p>Sign up with your email to stay updated on the latest news, exclusive offers, and insights about our products!</p>
-        <a href="/bottle" className="button-link">Click Here !</a>
+        <Link to="/bottle" className="button-link">Click Here !</Link>
         </div>
       </div>
 
