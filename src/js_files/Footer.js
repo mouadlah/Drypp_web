@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import '../css_files/Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -32,9 +33,9 @@ function Footer() {
       <div className="footer-section">
         <h4>Company</h4>
         <ul>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/bottle">Bottle</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/bottle">Bottle</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
         </ul>
       </div>
     </footer>
