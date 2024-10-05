@@ -10,8 +10,8 @@ function Header() {
       <nav className="nav">
         <Link to="/Drypp_web">Home</Link>
         <Link to="/about">About Us</Link> 
-        <a href="/bottle">Bottle</a>
-        <a href="/contact">Contact Us</a>
+        <Link to="/bottle">Bottel</Link> 
+        <Link to="/contact">Contact</Link> 
       </nav>
     </header>
   );

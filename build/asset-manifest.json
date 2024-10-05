@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Drypp_web/static/css/main.eaea4398.css",
-    "main.js": "/Drypp_web/static/js/main.b58450fe.js",
+    "main.css": "/Drypp_web/static/css/main.b69ee8e8.css",
+    "main.js": "/Drypp_web/static/js/main.7bc7fbcd.js",
     "static/js/453.28a1b346.chunk.js": "/Drypp_web/static/js/453.28a1b346.chunk.js",
     "static/media/fa-solid-900.ttf": "/Drypp_web/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/Rima.jpg": "/Drypp_web/static/media/Rima.84be6c34a809715ff381.jpg",
@@ -9,8 +9,8 @@
     "static/media/Momo.jpg": "/Drypp_web/static/media/Momo.1ddd2a104db7a9a92217.jpg",
     "static/media/Mathis.jpg": "/Drypp_web/static/media/Mathis.d9e937fa598221eed65e.jpg",
     "static/media/fa-solid-900.woff2": "/Drypp_web/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/img3.jpg": "/Drypp_web/static/media/img3.0fe5b40181dcb6b0d922.jpg",
     "static/media/fa-brands-400.woff2": "/Drypp_web/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/img3.jpg": "/Drypp_web/static/media/img3.2dbb3c67fcc499fd9f63.jpg",
     "static/media/img2.jpeg": "/Drypp_web/static/media/img2.55c99b61ee627b007b30.jpeg",
     "static/media/img1.jpeg": "/Drypp_web/static/media/img1.70851efaf8b1e55edb08.jpeg",
     "static/media/fa-regular-400.ttf": "/Drypp_web/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
@@ -18,12 +18,12 @@
     "static/media/fa-v4compatibility.ttf": "/Drypp_web/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Drypp_web/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Drypp_web/index.html",
-    "main.eaea4398.css.map": "/Drypp_web/static/css/main.eaea4398.css.map",
-    "main.b58450fe.js.map": "/Drypp_web/static/js/main.b58450fe.js.map",
+    "main.b69ee8e8.css.map": "/Drypp_web/static/css/main.b69ee8e8.css.map",
+    "main.7bc7fbcd.js.map": "/Drypp_web/static/js/main.7bc7fbcd.js.map",
     "453.28a1b346.chunk.js.map": "/Drypp_web/static/js/453.28a1b346.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaea4398.css",
-    "static/js/main.b58450fe.js"
+    "static/css/main.b69ee8e8.css",
+    "static/js/main.7bc7fbcd.js"
   ]
 }
