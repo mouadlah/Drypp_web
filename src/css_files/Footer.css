@@ -5,7 +5,7 @@
     align-items: center; /* Vertically centers the text and icons */
     padding: 40px 80px; /* Adjust padding to match the page's design */
     background-color: #87B6DC; /* Match the page background color */
-    color: black;
+    color: #333;
     width: 100%;
     box-sizing: border-box;
   }
@@ -28,22 +28,23 @@
   .footer-section p, .footer-section a {
     margin: 8px 0;
     font-size: 16px;
-    color: black;
+    color: #333;
     text-decoration: none;
   }
   
   .footer-section a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: white;
   }
   
   .social-icons a {
     margin-right: 5px;
     font-size: 24px;
-    color: black;
+    color: #333;
   }
   
   .social-icons a:hover {
-    color: #333;
+    color: white;
   }
   
   .footer-section ul {

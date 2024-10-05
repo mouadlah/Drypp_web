@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Update font family */
+    background-color: #f0f0f0; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.contact-hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 4px solid #00f2fe; /* Underline effect */
+    width:50%;
+    margin-left:25%;
+    height:2px;
+}
+
+.contact-hero h1 {
+    font-size: 3em;
+    margin: 0; /* Remove top margin */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for better visibility */
+    margin-top:-60px;
+}
+
+.contact-hero span {
+    color: #007bff; /* Highlight color */
+}
+
+.contact-hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto; /* Center align with some margin */
+    opacity: 0.9;
+    color: white;
+}
+
+/* Contact Details */
+.contact-details {
+    padding: 50px;
+    background: white; /* White background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Add some margin */
+}
+
+.deets{
+    color: #333;
+    margin-bottom:20px;
+}
+
+/* Members Incentive Section */
+.members-incentive {
+    background-color: #e0f7fa; /* Light teal background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Add some margin */
+    text-align: center; /* Center text */
+    width:60%;
+    margin-left: 300px;
+    margin-top:-200px;
+}
+
+.members-incentive h2 {
+    font-size: 2em;
+    color: #007bff; /* Heading color */
+}
+
+.members-incentive p {
+    font-size: 1em;
+    color: #333; /* Dark text for readability */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Social Media Links */
+.social-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Google Map Section */
+.map-section {
+    margin: 20px; /* Add margin for spacing */
+    text-align: center; /* Center align map */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .contact-hero h1 {
+        font-size: 2.5em;
+    }
+
+    .contact-hero p {
+        font-size: 1em;
+    }
+
+    .members-incentive {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .contact-details {
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+}

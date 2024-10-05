@@ -10,7 +10,6 @@ function Footer() {
     <footer className="footer">
       <div className="footer-section">
         <h4>Contact Us</h4>
-        <p><FontAwesomeIcon icon={faPhone} /> +1-555-555-5555</p>
         <p><FontAwesomeIcon icon={faEnvelope} /> drypp707@gmail.com</p>
         <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Tampa, FL</p>
       </div>
@@ -33,9 +32,9 @@ function Footer() {
       <div className="footer-section">
         <h4>Company</h4>
         <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="/About">About Us</a></li>
+          <li><a href="/Bottle">Bottle</a></li>
+          <li><a href="/Contact">Contact Us</a></li>
         </ul>
       </div>
     </footer>

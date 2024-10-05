@@ -65,12 +65,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      <h2>Contact Us</h2>
-      <p>
-        If you have any questions or would like to learn more about Drypp, feel free to reach out to us at 
-        <a href="mailto:drypp707@gmail.com"> drypp707@gmail.com</a>.
-      </p>
     </div>
   );
 }
