@@ -1,12 +1,15 @@
 // src/js_files/ImageSlider.js
 import React, { useState, useEffect } from 'react';
 import '../css_files/ImageSlider.css';
-import image1 from '../img/img1.jpeg'; 
-import image2 from '../img/img2.jpeg'; 
-import image3 from '../img/img3.jpg'; 
+import image1 from '../img/1.jpg'; 
+import image2 from '../img/2.jpg'; 
+import image3 from '../img/3.jpg'; 
+import image4 from '../img/4.jpg'; 
+import image5 from '../img/5.jpg'; 
+
 
 function ImageSlider() {
-  const images = [image1, image2, image3]; // Add more images if needed
+  const images = [image1, image2, image3, image4, image5]; // Add more images if needed
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
