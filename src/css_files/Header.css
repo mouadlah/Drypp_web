@@ -1,9 +1,100 @@
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure font size adjusts on smaller screens */
+body {
+  font-size: 16px;
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Example of a container with max width */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  /* Adjust layouts for tablets */
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav {
+    display: none; /* Hide navigation on tablets */
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  /* You can adjust columns to stack on tablet */
+  .column {
+    flex: 1 1 100%; /* Stack columns */
+  }
+}
+
+/* Small screens (mobile phones) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust header for mobile */
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .nav {
+    display: none; /* Hide nav on mobile */
+  }
+
+  .main-content {
+    padding: 5px;
+  }
+
+  /* Stack elements vertically on mobile */
+  .column {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Buttons should be full-width on mobile */
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #7bb7e0;
+  background-color: #0cc0df;
   color: black;
 }
 

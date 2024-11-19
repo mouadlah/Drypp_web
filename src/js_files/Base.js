@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../css_files/Bottle.css';
+import '../css_files/Base.css';
 
-function Bottle() {
+function Base() {
   const [email, setEmail] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -39,7 +39,7 @@ function Bottle() {
     <div className="fancy-bottle-page">
       <div className="bottle-content">
         <h1>Join the <span>Drypp</span> Family</h1>
-        <p>Be among the first to experience the future of hydration with our smart bottle. Join the waitlist for exclusive updates and pre-order opportunities!</p>
+        <p>Be among the first to experience the future of hydration with our Smart Base. Join the waitlist for exclusive updates and pre-order opportunities!</p>
 
         {/* Display success message */}
         {successMessage && <p className="success-message">{successMessage}</p>}
@@ -63,4 +63,4 @@ function Bottle() {
   );
 }
 
-export default Bottle;
+export default Base;

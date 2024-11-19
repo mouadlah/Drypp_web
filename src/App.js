@@ -3,7 +3,7 @@ import './App.css';
 import Header from './js_files/Header';
 import LandingPage from './js_files/LandingPage';
 import About from './js_files/About';
-import Bottle from './js_files/Bottle';
+import Base from './js_files/Base';
 import Contact from './js_files/Contact';
 import Footer from './js_files/Footer';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
@@ -25,7 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
 
           {/* Route for the about page */}
-          <Route path="/bottle" element={<Bottle />} />
+          <Route path="/base" element={<Base />} />
 
           {/* Route for the about page */}
           <Route path="/contact" element={<Contact />} />

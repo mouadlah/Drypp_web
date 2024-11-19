@@ -1,4 +1,94 @@
-/* General Page Layout */
+/* Global reset for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Make sure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Ensure font size adjusts on smaller screens */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Large screens (desktop) */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  
+    /* Example of a container with max width */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (max-width: 1024px) and (min-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+  
+    /* Adjust layouts for tablets */
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .nav {
+      display: none; /* Hide navigation on tablets */
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    /* You can adjust columns to stack on tablet */
+    .column {
+      flex: 1 1 100%; /* Stack columns */
+    }
+  }
+  
+  /* Small screens (mobile phones) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    /* Adjust header for mobile */
+    .header {
+      display: block;
+      text-align: center;
+    }
+  
+    .nav {
+      display: none; /* Hide nav on mobile */
+    }
+  
+    .main-content {
+      padding: 5px;
+    }
+  
+    /* Stack elements vertically on mobile */
+    .column {
+      flex: 1 1 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Buttons should be full-width on mobile */
+    button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
 .fancy-bottle-page {
     display: flex;
     justify-content: center;
@@ -14,7 +104,7 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     text-align: center;
-    background: linear-gradient(135deg, #007bff, #00f2fe);
+    background: linear-gradient(135deg, white, #00f2fe);
 }
 
 .bottle-content h1 {
@@ -29,7 +119,7 @@
 
 .bottle-content p {
     font-size: 1.2em;
-    color: white;
+    color: #333;
     margin-bottom: 30px;
 }
 
@@ -67,8 +157,8 @@
 /* Button Styles */
 .submit-button {
     padding: 15px 40px;
-    background: linear-gradient(135deg, #007bff, #00f2fe);
-    color: white;
+    background: linear-gradient(135deg, white, #00f2fe);
+    color: #333;
     font-size: 1.2em;
     border: none;
     border-radius: 50px;
