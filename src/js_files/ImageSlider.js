@@ -24,7 +24,7 @@ function ImageSlider() {
 
   return (
     <div className="image-slider">
-      <img src={images[currentImageIndex]} alt="Slider Image" className="slider-image" />
+      <img src={images[currentImageIndex]} alt="Slider" className="slider-image" />
     </div>
   );
 }
